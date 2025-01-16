@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url("C:\Users\Administrator\Desktop\Screenshot 2024-12-31 003324.png"); 
+    background-size: cover;
+    background-repeat: no-repeat; 
+    color: #333;
+}
+
+header {
+    background: #4CAF50;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+.logo img {
+    width: 100px;
+}
+
+nav {
+    margin: 15px 0;
+}
+
+nav button {
+    margin: 0 15px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #61dafb;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.1s; /* Add transformation to buttons */
+    border-radius: 5px;
+}
+
+nav button:hover {
+    background-color: #21a1f1; /* Change background on hover */
+}
+
+main {
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8); /* White with transparency */
+    margin: 20px auto;
+    border-radius: 10px;
+    max-width: 1200px;
+}
+
+.welcome-section {
+    margin: 20px 0; 
+}
+
+.welcome-message {
+    font-size: 24px;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    color: #000;
+}
+
+h2 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery img {
+    width: 200px;
+    margin: 10px;
+    border-radius: 10px;
+    transition: transform 0.3s; /* Make sure transition is set for smooth image movement */
+}
+
+.gallery img:hover {
+    transform: scale(1.1); /* Scale up on hover */
+}
+
+.video-section {
+    text-align: center;
+    margin: 20px 0;
+
+}
+
+footer {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.7); /* Black with transparency */
+    color: white;
+    padding: 10px 0;
+}
+
+.services-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.service-item {
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+}
+
+.service-item img {
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s; /* Smooth scale on hover for service images */
+}
+
+.service-item img:hover {
+    transform: scale(1.05); /* Scale up on hover */
+}
+
+.about-image {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    display: block;
+    margin: 20px auto; /* Centering the about image */
+}
+.vide-section {
+    width: 200px;
+    margin: 10px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+    display: block;
+    flex-wrap: wrap;
+    justify-content: center; 
+}
